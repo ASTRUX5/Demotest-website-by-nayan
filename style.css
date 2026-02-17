@@ -1,0 +1,71 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(135deg,#0f2027,#203a43,#2c5364);
+  color: white;
+}
+
+header {
+  display:flex;
+  justify-content:space-between;
+  padding:20px 10%;
+  background:rgba(0,0,0,0.6);
+  position:sticky;
+  top:0;
+}
+
+nav a {
+  color:white;
+  margin-left:20px;
+  text-decoration:none;
+}
+
+.hero {
+  text-align:center;
+  padding:120px 20px;
+}
+
+.btn {
+  display:inline-block;
+  margin-top:20px;
+  padding:12px 25px;
+  background:#00c6ff;
+  color:black;
+  text-decoration:none;
+  border-radius:30px;
+}
+
+.features, .services {
+  display:flex;
+  flex-wrap:wrap;
+  justify-content:center;
+  padding:50px 10%;
+  gap:30px;
+}
+
+.card, .service-card {
+  background:rgba(255,255,255,0.1);
+  padding:30px;
+  width:250px;
+  border-radius:15px;
+  text-align:center;
+}
+
+.review-box {
+  background:rgba(255,255,255,0.1);
+  margin:20px auto;
+  padding:20px;
+  width:60%;
+  border-radius:10px;
+}
+
+.contact {
+  text-align:center;
+  padding:100px 20px;
+}
+
+footer {
+  text-align:center;
+  padding:20px;
+  background:black;
+}
